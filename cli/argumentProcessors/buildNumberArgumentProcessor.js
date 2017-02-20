@@ -17,5 +17,6 @@ module.exports = function(processArguments) {
     process.exit(1);
   }
 
+  console.log(chalk.cyan.bold("Moira will use the following value for build number: " + buildNumber));
   return buildNumber;
 }
