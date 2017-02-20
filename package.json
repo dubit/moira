@@ -1,0 +1,30 @@
+{
+  "name": "moira",
+  "version": "0.1.0",
+  "description": "Moira is a command line tool that helps with versioning React-Native projects.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FenrirWillow/moira.git"
+  },
+  "bin": {
+    "moira": "cli/moira.js"
+  },
+  "keywords": [
+    "cli",
+    "versioning",
+    "react-native"
+  ],
+  "author": "Dubit Ltd",
+  "maintainers": [
+    {
+      "name": "FenrirWillow",
+      "email": "stefanbobev@hotmail.com"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FenrirWillow/moira/issues"
+  },
+  "homepage": "https://github.com/FenrirWillow/moira#readme"
+}
