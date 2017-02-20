@@ -48,3 +48,5 @@ if(versionIOS) {
   pathToInfoPlist = pathArgumentProcessor.processInfoPlistFilePath(argv);
   versionIOSCommand(pathToInfoPlist, syncVersion, syncBuildNumber, applicationVersion, buildNumber);
 }
+
+chalk.reset();
