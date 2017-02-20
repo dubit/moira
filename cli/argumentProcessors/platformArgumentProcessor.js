@@ -15,14 +15,18 @@ module.exports = function(processArguments) {
       console.log(chalk.yellow("iOS versioning only available on OS X systems!"));
       console.log(chalk.yellow("Moira will only version the Android application."));
     }
-  } else if(processArguments.ios === true) {
+  }
+
+  if(processArguments.ios === true) {
     if(isPlatformOSX()) {
       versionIOS = true;
     } else {
       console.log(chalk.yellow("iOS versioning only available on OS X systems!"));
       console.log(chalk.yellow("Moira will only version the Android application."));
     }
-  } else if(processArguments.android === true) {
+  }
+
+  if(processArguments.android === true) {
     versionAndroid = true;
   }
 
